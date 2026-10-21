@@ -586,7 +586,7 @@ export default class Purchases {
   public static configure(configuration: PurchasesConfiguration): void {
     const {
     apiKey,
-    appUserID = null,
+    appUserID,
     purchasesAreCompletedBy = PURCHASES_ARE_COMPLETED_BY_TYPE.REVENUECAT,
     userDefaultsSuiteName,
     storeKitVersion = STOREKIT_VERSION.DEFAULT,
